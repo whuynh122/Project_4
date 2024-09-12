@@ -7,4 +7,5 @@ import plotly.express as px
 import altair as alt
 
 vehicles = pd.read_csv(r"vehicles_us.csv")
+st.header("Vehicles Data")
 st.dataframe(vehicles)
