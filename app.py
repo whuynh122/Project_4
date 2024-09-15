@@ -5,7 +5,7 @@ import scipy.stats as stats
 import streamlit as st
 import plotly.express as px
 import altair as alt
-import matplotlib.pyplot as plt
+
 
 vehicles = pd.read_csv(r"vehicles_us.csv")
 
