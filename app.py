@@ -11,7 +11,7 @@ vehicles = pd.read_csv(r"vehicles_us.csv")
 
 st.set_page_config(layout="wide")
 st.header("Car advertisments Data:car:")
-
+st.dataframe(vehicles)
 option = st.selectbox(
     "select a car model",
    vehicles['model'].unique(),
