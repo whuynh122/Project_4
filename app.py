@@ -43,7 +43,7 @@ scatter.update_layout( title="Scatter plot miles v price by car model",
         yaxis_title="Miles on Car",)
 
 cols = st.columns(2)
-#loting both charts
+#ploting both charts
 cols[0].plotly_chart(fig)
 
 cols[1].plotly_chart(scatter)
